@@ -2,12 +2,12 @@
 
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
-	'name' => 'ProblemSets extension', 
-	'version' => 0.0, 
-	'author' => 'Kendrick Shaw and Jeffrey Gill',
-	'url' => 'https://slugoffice8.case.edu:8080/neurowiki',
+	'name' => 'ProblemSets',
+	'version' => 0.0,
+	'author' => array('Kendrick Shaw', 'Jeffrey Gill'),
+	'url' => 'https://github.com/kms15/ProblemSets',
 	'description' => 'Allows students to enter answers and scores them.',
-	'descriptionmsg' => 'ProblemSets-desc',
+	'descriptionmsg' => 'problemsets-desc'
 );
 
 $wgExtensionMessagesFiles['ProblemSets'] = dirname( __FILE__ ) . '/ProblemSets.i18n.php';
